@@ -158,7 +158,7 @@ public class MJHand : MonoBehaviour
         player.tableCardLayout.AddCard(card);
         player.tableCardLayout.AddCard(card);
         player.tableCardLayout.AddCard(card);
-        player.tableCardLayout.AddCard(card);
+        player.tableCardLayout.ChangeCard(card);
 
         if (isMy)
         {
@@ -231,7 +231,7 @@ public class MJHand : MonoBehaviour
     {
         Game.SoundManager.PlayMingGang(position);
 
-        player.tableCardLayout.AddCard(card);
+        player.tableCardLayout.ChangeCard(card);
 
         if (isMy)
         {
@@ -297,7 +297,7 @@ public class MJHand : MonoBehaviour
         player.tableCardLayout.AddCard(card);
         player.tableCardLayout.AddCard(card);
         player.tableCardLayout.AddCard(card);
-        player.tableCardLayout.AddCard(card);
+        player.tableCardLayout.ChangeCard(card);
 
         if (isMy)
         {

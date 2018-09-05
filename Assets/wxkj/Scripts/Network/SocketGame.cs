@@ -563,7 +563,10 @@ public partial class SocketGame : MonoBehaviour {
                     if (card1 == card2 && card1 == card3)
                     {
                         if (card4 != 0)
-                            player.tableCardLayout.AddCard(card4);
+                        {
+                            //player.tableCardLayout.AddCard(card4);
+                            player.tableCardLayout.ChangeCard(card4);
+                        }
                     }
 
                     MJCardGroup.TryDragCard();
